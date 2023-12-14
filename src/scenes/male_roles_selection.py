@@ -14,17 +14,14 @@ class MaleRolesScene:
     def handle_event(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN:
             if self.chinese_ancient_cultivator_button_rect.collidepoint(event.pos):
-                print("Chinese Ancient Cultivator selected")
-                # todo
-                # self.scene_manager.switch_to('')
+                # Chinese Ancient Cultivator selected
+                self.scene_manager.switch_to('male_role1')
             elif self.british_vampire_count_button_rect.collidepoint(event.pos):
-                print("British Vampire Count selected")
-                # todo
-                # self.scene_manager.switch_to('')
+                # British Vampire Count selected
+                self.scene_manager.switch_to('male_role2')
             elif self.portuguese_classical_merchant_button_rect.collidepoint(event.pos):
-                print("Portuguese Classical Merchant selected")
-                # todo
-                # self.scene_manager.switch_to('')
+                # Portuguese Classical Merchant selected
+                self.scene_manager.switch_to('male_role3')
 
     def draw(self):
         # 绘制背景图
