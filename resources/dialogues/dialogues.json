@@ -1,47 +1,159 @@
 {
   "male_role1": {
-    "question": "这是一个示例问题吗？",
+    "question": "你在山中发现了一株罕见的药草，你会怎么做？",
     "answers": [
       {
-        "text": "是的，这是一个示例问题。",
+        "text": "仔细研究它，看看能否用于炼丹。",
         "followUp": {
-          "question": "你想了解示例的哪个方面？",
+          "question": "你发现它是一株千年灵芝，你打算如何使用它？",
           "answers": [
             {
-              "text": "它的结构。",
+              "text": "炼制提升修为的丹药。",
+              "followUp": {
+                "question": "炼制过程中，你遇到了一些困难，你如何解决？",
+                "answers": [
+                  {
+                    "text": "尝试自己解决。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "寻求师傅的帮助。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "放弃炼制，寻找其他方法。",
+                    "followUp": {}
+                  }
+                ]
+              }
+            },
+            {
+              "text": "保存起来，日后再说。",
+              "followUp": {
+                "question": "你如何确保灵芝的安全？",
+                "answers": [
+                  {
+                    "text": "找一个隐秘的地方藏起来。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "将其放在身边随时保护。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "制作一个保护阵法。",
+                    "followUp": {}
+                  }
+                ]
+              }
+            },
+            {
+              "text": "卖掉它，换取其他所需物资。",
+              "followUp": {
+                "question": "你打算如何出售它？",
+                "answers": [
+                  {
+                    "text": "找一个可靠的商人。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "在黑市上出售。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "通过师门交换所需物资。",
+                    "followUp": {}
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "text": "将它挖走，可能会有大用。",
+        "followUp": {
+          "question": "你如何处理这株药草？",
+          "answers": [
+            {
+              "text": "直接使用它。",
               "followUp": {}
             },
             {
-              "text": "如何使用它。",
+              "text": "进行研究，看看有何用途。",
               "followUp": {}
             },
             {
-              "text": "它的目的。",
+              "text": "保留起来，以备不时之需。",
               "followUp": {}
             }
           ]
         }
       },
       {
-        "text": "不，这不是一个示例问题。",
-        "followUp": {}
-      },
-      {
-        "text": "可能是，也可能不是。",
+        "text": "留下它，不打扰这片自然。",
         "followUp": {
-          "question": "为什么会这样说？",
+          "question": "你觉得保护自然重要吗？",
           "answers": [
             {
-              "text": "因为它看起来像一个例子。",
-              "followUp": {}
+              "text": "是的，自然的平衡很重要。",
+              "followUp": {
+                "question": "你会如何保护自然？",
+                "answers": [
+                  {
+                    "text": "通过修炼提升自己，守护这片山林。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "劝说他人不要破坏自然。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "制定规则，防止过度采集。",
+                    "followUp": {}
+                  }
+                ]
+              }
             },
             {
-              "text": "我不确定它是不是一个例子。",
-              "followUp": {}
+              "text": "不确定，我更关心修仙。",
+              "followUp": {
+                "question": "修仙对你来说意味着什么？",
+                "answers": [
+                  {
+                    "text": "追求更高的境界。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "获得更多的力量。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "了解世界的真理。",
+                    "followUp": {}
+                  }
+                ]
+              }
             },
             {
-              "text": "这只是一个猜测。",
-              "followUp": {}
+              "text": "不，我的修仙之路更重要。",
+              "followUp": {
+                "question": "你认为修仙的最终目的是什么？",
+                "answers": [
+                  {
+                    "text": "成为不朽。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "获得绝对的力量。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "理解宇宙的奥秘。",
+                    "followUp": {}
+                  }
+                ]
+              }
             }
           ]
         }
@@ -49,87 +161,391 @@
     ]
   },
   "male_role2": {
-    "quetions": "******",
+    "question": "你遇到了一位猎人，他似乎没有发现你的真实身份，你会怎么做？",
     "answers": [
       {
-        "text": "******",
-        "followUp": {}
+        "text": "悄悄离开，避免冲突。",
+        "followUp": {
+          "question": "在离开的途中，你发现了另一位吸血鬼被困，你会怎么做？",
+          "answers": [
+            {
+              "text": "尝试救出他，冒着被发现的风险。",
+              "followUp": {}
+            },
+            {
+              "text": "忽略他，自己的安全更重要。",
+              "followUp": {}
+            },
+            {
+              "text": "通知其他吸血鬼来帮忙。",
+              "followUp": {}
+            }
+          ]
+        }
       },
       {
-        "text": "******",
-        "followUp": {}
+        "text": "与他交谈，了解更多信息。",
+        "followUp": {
+          "question": "他开始怀疑你，你打算怎么办？",
+          "answers": [
+            {
+              "text": "继续保持镇定，掩饰真实身份。",
+              "followUp": {
+                "question": "他提出一起去猎杀吸血鬼，你怎么回应？",
+                "answers": [
+                  {
+                    "text": "答应他，但计划在途中逃脱。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "拒绝，找借口离开。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "暗中威胁他，让他离开。",
+                    "followUp": {}
+                  }
+                ]
+              }
+            },
+            {
+              "text": "逃跑，避免被发现。",
+              "followUp": {}
+            },
+            {
+              "text": "攻击他，消除威胁。",
+              "followUp": {
+                "question": "你成功击败了猎人，但引起了周围人的注意，你接下来怎么做？",
+                "answers": [
+                  {
+                    "text": "迅速离开现场。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "伪装成受害者，混淆视听。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "利用吸血鬼的力量威胁众人，让他们保持沉默。",
+                    "followUp": {}
+                  }
+                ]
+              }
+            }
+          ]
+        }
       },
       {
-        "text": "******",
-        "followUp": {}
+        "text": "立刻攻击他，消除潜在威胁。",
+        "followUp": {
+          "question": "你击败了猎人，但发现他身上有一张地图，看起来很重要，你会怎么做？",
+          "answers": [
+            {
+              "text": "拿走地图，研究它可能的秘密。",
+              "followUp": {}
+            },
+            {
+              "text": "销毁地图，避免更多麻烦。",
+              "followUp": {}
+            },
+            {
+              "text": "忽略地图，继续你的旅程。",
+              "followUp": {}
+            }
+          ]
+        }
       }
     ]
   },
   "male_role3": {
-    "quetions": "******",
+    "question": "在市集上，你发现了一个可能的商机，但风险很大，你会怎么做？",
     "answers": [
       {
-        "text": "******",
-        "followUp": {}
+        "text": "投资它，冒险可能带来大收益。",
+        "followUp": {
+          "question": "投资后，你发现竞争对手也对这个商机感兴趣，你打算怎么应对？",
+          "answers": [
+            {
+              "text": "加大投资，争取市场主导地位。",
+              "followUp": {}
+            },
+            {
+              "text": "与竞争对手谈判，寻求合作。",
+              "followUp": {}
+            },
+            {
+              "text": "保持现状，观察市场变化。",
+              "followUp": {}
+            }
+          ]
+        }
       },
       {
-        "text": "******",
-        "followUp": {}
+        "text": "观望一段时间，再做决定。",
+        "followUp": {
+          "question": "市场情况开始变化，你现在怎么做？",
+          "answers": [
+            {
+              "text": "现在投资，时机看起来更好了。",
+              "followUp": {
+                "question": "你的投资开始见效，但需要更多资金来维持，你会怎么做？",
+                "answers": [
+                  {
+                    "text": "寻找外部投资者。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "出售部分资产来筹集资金。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "冒险借贷，扩大投资。",
+                    "followUp": {}
+                  }
+                ]
+              }
+            },
+            {
+              "text": "放弃，风险太大。",
+              "followUp": {}
+            },
+            {
+              "text": "继续观望，等待更好的机会。",
+              "followUp": {
+                "question": "你发现一个新的投资机会，但它与你原来的领域不同，你会怎么做？",
+                "answers": [
+                  {
+                    "text": "尝试这个新机会，可能会有新的发展。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "坚持自己的领域，不轻易尝试新事物。",
+                    "followUp": {}
+                  },
+                  {
+                    "text": "详细研究新机会，然后做决定。",
+                    "followUp": {}
+                  }
+                ]
+              }
+            }
+          ]
+        }
       },
       {
-        "text": "******",
-        "followUp": {}
+        "text": "放弃，保守行事。",
+        "followUp": {
+          "question": "你看到其他商人因为冒险而获得了巨大的成功，你有什么感想？",
+          "answers": [
+            {
+              "text": "有些后悔，我也应该冒险尝试。",
+              "followUp": {}
+            },
+            {
+              "text": "我对自己的选择感到满意，稳定更重要。",
+              "followUp": {}
+            },
+            {
+              "text": "我会从他们的成功中学习，但按自己的方式行事。",
+              "followUp": {}
+            }
+          ]
+        }
       }
     ]
   },
   "female_role1": {
-    "quetions": "******",
+    "question": "你在皇宫的秘密花园里发现了一本遗落的修仙秘籍，你会怎么做？",
     "answers": [
       {
-        "text": "******",
-        "followUp": {}
+        "text": "偷偷藏起秘籍，利用闲暇时间研读。",
+        "followUp": {
+          "question": "你在秘籍中发现了一种简单的修炼方法，但需要冒一定的风险，你打算尝试吗？",
+          "answers": [
+            {
+              "text": "是的，我愿意冒险。",
+              "followUp": {}
+            },
+            {
+              "text": "不，我需要更多时间考虑。",
+              "followUp": {}
+            },
+            {
+              "text": "我会先寻找更多信息。",
+              "followUp": {}
+            }
+          ]
+        }
       },
       {
-        "text": "******",
-        "followUp": {}
+        "text": "上报这本秘籍，可能会得到奖赏。",
+        "followUp": {
+          "question": "皇上赏识了你的诚实，提出让你选择一件礼物，你会选择什么？",
+          "answers": [
+            {
+              "text": "请求学习文学或武艺。",
+              "followUp": {}
+            },
+            {
+              "text": "要求金银财宝。",
+              "followUp": {}
+            },
+            {
+              "text": "希望能有更多的自由时间。",
+              "followUp": {}
+            }
+          ]
+        }
       },
       {
-        "text": "******",
-        "followUp": {}
+        "text": "将秘籍留在原地，假装未曾发现。",
+        "followUp": {
+          "question": "你晚上回到房间后，是否后悔没有取走秘籍？",
+          "answers": [
+            {
+              "text": "是的，我应该抓住机会。",
+              "followUp": {}
+            },
+            {
+              "text": "不，我做了正确的选择。",
+              "followUp": {}
+            },
+            {
+              "text": "我还是很犹豫。",
+              "followUp": {}
+            }
+          ]
+        }
       }
     ]
   },
   "female_role2": {
-    "quetions": "******",
+    "question": "你的爱人提出了一个危险的计划，你会怎么回应？",
     "answers": [
       {
-        "text": "******",
-        "followUp": {}
+        "text": "支持他，即使有风险。",
+        "followUp": {
+          "question": "计划执行中，出现了意外，你的爱人受伤了，你会怎么做？",
+          "answers": [
+            {
+              "text": "立即采取行动，救治他。",
+              "followUp": {}
+            },
+            {
+              "text": "寻找其他吸血鬼帮忙。",
+              "followUp": {}
+            },
+            {
+              "text": "利用自己的力量，为他治疗。",
+              "followUp": {}
+            }
+          ]
+        }
       },
       {
-        "text": "******",
-        "followUp": {}
+        "text": "劝他放弃，太危险了。",
+        "followUp": {
+          "question": "他坚持要去，你会怎么做？",
+          "answers": [
+            {
+              "text": "跟随他，一起面对危险。",
+              "followUp": {}
+            },
+            {
+              "text": "让他独自去，但保持联系。",
+              "followUp": {}
+            },
+            {
+              "text": "强行阻止他。",
+              "followUp": {}
+            }
+          ]
+        }
       },
       {
-        "text": "******",
-        "followUp": {}
+        "text": "提出一个更安全的替代方案。",
+        "followUp": {
+          "question": "他接受了你的建议，但计划仍然有风险，你会怎么做？",
+          "answers": [
+            {
+              "text": "亲自参与，确保安全。",
+              "followUp": {}
+            },
+            {
+              "text": "从远处监视，随时准备援助。",
+              "followUp": {}
+            },
+            {
+              "text": "信任他，不过度干涉。",
+              "followUp": {}
+            }
+          ]
+        }
       }
     ]
   },
   "female_role3": {
-    "quetions": "******",
+    "question": "你发现了一种新的布料，但它的来源不明，你会怎么做？",
     "answers": [
       {
-        "text": "******",
-        "followUp": {}
+        "text": "调查这种布料的来源。",
+        "followUp": {
+          "question": "你发现这种布料来自一个遥远的国度，有着独特的制作工艺，你会怎么做？",
+          "answers": [
+            {
+              "text": "尝试引进这种布料，创造新的市场。",
+              "followUp": {}
+            },
+            {
+              "text": "前往那个国度，学习制作工艺。",
+              "followUp": {}
+            },
+            {
+              "text": "保持谨慎，先观察其他商人的反应。",
+              "followUp": {}
+            }
+          ]
+        }
       },
       {
-        "text": "******",
-        "followUp": {}
+        "text": "立即购买，可能是个好机会。",
+        "followUp": {
+          "question": "你的竞争对手也开始关注这种布料，你会怎么做？",
+          "answers": [
+            {
+              "text": "加大投资，争取市场主导地位。",
+              "followUp": {}
+            },
+            {
+              "text": "与竞争对手合作，共同开发市场。",
+              "followUp": {}
+            },
+            {
+              "text": "保持现有策略，观察市场变化。",
+              "followUp": {}
+            }
+          ]
+        }
       },
       {
-        "text": "******",
-        "followUp": {}
+        "text": "谨慎行事，先观察市场反应。",
+        "followUp": {
+          "question": "市场对这种新布料反应热烈，你现在怎么做？",
+          "answers": [
+            {
+              "text": "大量购入，抓住机会。",
+              "followUp": {}
+            },
+            {
+              "text": "继续保持谨慎，小批量尝试。",
+              "followUp": {}
+            },
+            {
+              "text": "放弃，风险太大。",
+              "followUp": {}
+            }
+          ]
+        }
       }
     ]
   }
