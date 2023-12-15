@@ -12,7 +12,7 @@ class ConversationScene:
         self.current_dialogues = copy.deepcopy(self.dialogues)
         self.current_question = self.get_current_question()
         self.current_answers = self.get_current_answers()
-        self.font = pygame.font.SysFont(None, 25)  # 字体
+        self.font = pygame.font.Font('./resources/fonts/msyh.ttc', 12)  # 字体-微软雅黑
         self.bg = pygame.image.load('./resources/images/backgrounds/conversation_bg.png')  # 背景
         self.game_over_bg = pygame.image.load('./resources/images/backgrounds/game_over_bg.png')  # 结束背景
         self.question_rect = pygame.Rect(50, 275, 300, 50)  # 对话提问区域
