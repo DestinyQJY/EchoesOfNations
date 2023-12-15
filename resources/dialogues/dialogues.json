@@ -1,22 +1,136 @@
 {
-    "male_role1": [
-        {
-            "question": "question1",
-            "answers": ["answer1", "answer2", "answer3"]
-        },
-        {
-            "question": "question2",
-            "answers": ["answer1", "answer2", "answer3"]
+  "male_role1": {
+    "question": "这是一个示例问题吗？",
+    "answers": [
+      {
+        "text": "是的，这是一个示例问题。",
+        "followUp": {
+          "question": "你想了解示例的哪个方面？",
+          "answers": [
+            {
+              "text": "它的结构。",
+              "followUp": {}
+            },
+            {
+              "text": "如何使用它。",
+              "followUp": {}
+            },
+            {
+              "text": "它的目的。",
+              "followUp": {}
+            }
+          ]
         }
-    ],
-    "male_role2": [
-    ],
-    "male_role3": [
-    ],
-    "female_role1": [
-    ],
-    "female_role2": [
-    ],
-    "female_role3": [
+      },
+      {
+        "text": "不，这不是一个示例问题。",
+        "followUp": {}
+      },
+      {
+        "text": "可能是，也可能不是。",
+        "followUp": {
+          "question": "为什么会这样说？",
+          "answers": [
+            {
+              "text": "因为它看起来像一个例子。",
+              "followUp": {}
+            },
+            {
+              "text": "我不确定它是不是一个例子。",
+              "followUp": {}
+            },
+            {
+              "text": "这只是一个猜测。",
+              "followUp": {}
+            }
+          ]
+        }
+      }
     ]
+  },
+  "male_role2": {
+    "quetions": "******",
+    "answers": [
+      {
+        "text": "******",
+        "followUp": {}
+      },
+      {
+        "text": "******",
+        "followUp": {}
+      },
+      {
+        "text": "******",
+        "followUp": {}
+      }
+    ]
+  },
+  "male_role3": {
+    "quetions": "******",
+    "answers": [
+      {
+        "text": "******",
+        "followUp": {}
+      },
+      {
+        "text": "******",
+        "followUp": {}
+      },
+      {
+        "text": "******",
+        "followUp": {}
+      }
+    ]
+  },
+  "female_role1": {
+    "quetions": "******",
+    "answers": [
+      {
+        "text": "******",
+        "followUp": {}
+      },
+      {
+        "text": "******",
+        "followUp": {}
+      },
+      {
+        "text": "******",
+        "followUp": {}
+      }
+    ]
+  },
+  "female_role2": {
+    "quetions": "******",
+    "answers": [
+      {
+        "text": "******",
+        "followUp": {}
+      },
+      {
+        "text": "******",
+        "followUp": {}
+      },
+      {
+        "text": "******",
+        "followUp": {}
+      }
+    ]
+  },
+  "female_role3": {
+    "quetions": "******",
+    "answers": [
+      {
+        "text": "******",
+        "followUp": {}
+      },
+      {
+        "text": "******",
+        "followUp": {}
+      },
+      {
+        "text": "******",
+        "followUp": {}
+      }
+    ]
+  }
 }
